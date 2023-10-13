@@ -13,3 +13,5 @@ Start by checking out branch `conflicts`
 Then run `git rebase main`
 
 This should fail with a conflict. You can pick the correct content, and continue the rebase with `git rebase --continue`.
+
+This line shouldn't cause a conflict, since it's added to the end of the previous commit
